@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server Monitoring</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        img {
+            margin: 20px;
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            location.reload();
+        }, 5000);
+    </script>
+</head>
+<body>
+    <img src="data:image/png;base64,{{ img_base64 }}" alt="Server Monitoring Graph">
+</body>
+</html>

@@ -1,0 +1,4 @@
+matplotlib==3.8.3
+paramiko==3.4.0
+environs==11.0.0
+flask==3.0.2
